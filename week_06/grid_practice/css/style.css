@@ -13,12 +13,11 @@
         "header header header"
         "blog blog ads"
         "footer footer footer";
-    gap: 10px;
+    gap: 5px;
 }
 
 .grid-element {
-    background-color: rgb(1, 1, 96);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     line-height: 50px;
     text-align: center;
     font-size: 26px;
@@ -28,7 +27,9 @@
     border-image: initial;
     border-radius: 4px;
 }
-
+.ceil {
+    background-color:white;
+}
 #header{
     grid-area: header;
     background-color: grey;
@@ -42,9 +43,47 @@
 #blog{
     grid-area: blog;
     background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px 10px 20px 10px;
 }
 
 #footer{
     grid-area: footer;
     background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 20px 10px 20px 10px;
+}
+
+.grid-element-ceil-0{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-element-ceil-1{
+    background-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-element-ceil-2 {
+    background-color: beige;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-element-ceil-3 {
+    background-color: beige;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+
 }
