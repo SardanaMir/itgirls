@@ -1,0 +1,803 @@
+* {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: absolute;
+    width: 100%;
+}
+body {
+    width: 100vw;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-logo {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+.container {
+    /* width: 100%; */
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: "Kaushan Script";
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 42px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 140px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+
+}
+
+.promo {
+    min-height: 1000px;
+    background-color: #fce38a;
+    background: linear-gradient(to top, rgba(252, 227, 138, 0.8) 0%, rgba(243, 129, 129, 0.8) 100%), url('../img/01_promo/Layer_15.jpg') center center/cover no-repeat;
+    padding: 229px 0 0 0;
+}
+
+.promo_btn {
+    display: block;
+    margin: 124px auto 0 auto;
+
+    width: 160px;
+    height: 40px;
+    border: 3px solid #ffffff;
+    background-color: rgba(1,1,1,0.0);
+    cursor: pointer;
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.story-about-us {
+    min-height: 750px;
+}
+.section_block {
+    display: block;
+    margin: 0 auto;
+
+}
+.section_subtitle{
+    margin-top: 91px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.section_title {
+    margin-top: 23px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section_descr {
+    margin-top: 47px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.story-about-us_images-block{
+    margin-top: 91px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.achievements {
+    height: 270px;
+    background-color: #95e1d3;
+}
+.achievements_number{
+    margin-top: 89px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.achievements_descr{
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+.achievements_grid-container {
+    display: grid;
+    grid-template-columns: 170px 1fr 1fr 1fr 1fr 1fr 170px;
+}
+.achievements_block-1{
+    grid-column-start: 2;
+}
+.amazing-service{
+    min-height: 650px;
+}
+.amazing-service .section_block{
+    margin-top: 109px;
+}
+
+.amazing-service_block, .feedback_block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.amazing-service_text{
+    margin-left: 27px;
+}
+
+.amazing-service_subtitle, .feedback_title, .rectangle_name, .team-member_name{
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.amazing-service_descr, .feedback_descr{
+    margin-top: 10px;
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.amazing-service_grid-container {
+    margin-top: 66px;
+    display: grid;
+    grid-template-columns: 170px 1fr 1fr 1fr 170px;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 120px;
+    column-gap: 68px;
+}
+
+.grid-elem-1 {
+    grid-column-start: 2;
+}
+.grid-elem-4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.grid-elem-5 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.grid-elem-6 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+
+.partners{
+    min-height: 250px;
+    background-color: #f8f8f8;
+}
+.partners_img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.images_sector {
+    box-sizing: border-box
+} 
+
+.images-sector_grid-container{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 390px);
+}
+.image_3{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+.image_5, .image_6 {
+    
+    grid-row-start: 2;
+}
+.image_7{
+   
+    grid-column-start: 4;
+}
+
+.feedback {
+    min-height: 830px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0.85) 100%), url('../img/09_feedback/bg/Layer_53.jpg') center center/cover no-repeat;
+    padding-top: 20px;
+}
+
+.feedback_grid-container{
+    margin-top: 87px;
+    display: grid;
+    grid-template-columns: 170px 1fr 1fr 170px;
+    column-gap: 86px;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 72px;
+}
+
+.feed-grid-elem-1{
+    grid-column-start: 2;
+}
+.feed-grid-elem-3{
+    grid-column-start: 2;
+}
+
+.feedback .section_title{
+    margin-top: 16px;
+}
+.feedback_text {
+    margin-left: 30px;
+    padding-top: 12px;
+}
+.feedback_subtitle {
+
+    color: #333333;
+    font-family: "Roboto - Light Italic";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.feedback_line{
+    margin-top: 17px;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.service{
+    min-height: 900px;
+}
+
+.rectangle {
+	width: 600px;
+    height: 60px;
+	background-color: rgba(1,1,1,0.0);
+    border: 1px solid #e5e5e5;
+    padding: 5px 0 5px 5px;
+    margin-bottom: 10px;
+}
+
+.service_block {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 92px;
+}
+.service_block_items {
+    margin-left: 30px;
+}
+
+/* .service_block_item{
+    padding: 5px 0 5px 5px;
+} */
+
+.rectangle_content{
+    /* display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.carousel{
+    min-height: 290px;
+    background-color: #f8f8f8;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.carousel_block{
+    display: flex;
+    direction: row;
+    /* width: 978px; */
+    align-items: center;
+    padding: 0;
+}
+
+.carousel_block_rectangle{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #95e1d3;
+    display: flex;
+    align-items: center;
+}
+.carousel_block_img{
+    display: block;
+    margin: 0 auto 0 auto;
+    
+}
+.carousel_text{
+    /* width: 767px; */
+    color: #999999;
+    font-family: "Roboto - Light Italic";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.customer_name{
+    /* width: 82px; */
+    /* height: 22px; */
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.carousel_descr{
+    margin-left: 61px;
+}
+
+.customer_name_decoration{
+    display: flex;
+    margin-top: 23px;
+    align-items: center
+}
+.carousel_line{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+}
+
+.team {
+    min-height: 1050px;
+    padding-left: 100px;
+}
+
+.team-member{
+    width: 380px;
+}
+
+.team_descr{
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member_name{
+    margin-top: 31px;
+    text-align: center;
+}
+.team-member_position{
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .images_sector, .partners{
+        display: none;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    .promo {
+        width: 100%;
+    }
+    .story-about-us{
+        min-height: 600px;
+    }
+    .story-about-us_image{
+        width: 30%;
+    }
+    .achievements_number{
+        font-size: 55px;
+    }
+    .service_block {
+        flex-wrap: wrap;
+    }
+    .carousel{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .carousel_text{
+        width: 500px;
+    }
+    .amazing-service{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .amazing-service_grid-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .feedback{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .feedback_grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);   
+        row-gap: 10px;  
+
+    }
+    .feed-grid-elem-1{
+        grid-column-start: 1;
+    }
+    .feed-grid-elem-3{
+        grid-column-start: 1;
+    }
+    .team {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .images_sector, .partners{
+        display: none;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .promo{
+        min-height: 700px;
+    }
+    .achievements_grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 10px
+    }
+    .achievements_number{
+        font-size: 50px;
+    }
+    .amazing-service_grid-container{
+        grid-template-columns: 50px 1fr 1fr 50px;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    }
+    .grid-elem-3{
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+    .grid-elem-4{
+        grid-column-start: 3;
+    }
+    .grid-elem-5{
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+    .grid-elem-6{
+        grid-row-start: 3;
+        grid-column-start: 3;
+    }
+    .service_block {
+        flex-direction: column;
+    }
+    .rectangle {
+        width: 100%;
+    }
+    .carousel_block{
+        width: 40%;
+    }
+    .carousel_text{
+        font-size: 15px;
+    }
+    .customer_name{
+        font-size: 15px;
+    }
+    .story-about-us{
+        min-height: 500px;
+    }
+    .story-about-us_image{
+        width: 30%;
+    }
+    .service_block_items {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .carousel{
+        padding-left: 50px;
+        padding-right: 50px;
+        min-height: 200px;
+    }
+    .carousel_block{
+        margin: 0;
+        width: 40%;
+    }
+    .carousel_text{
+        width: 500px;
+    }
+    .carousel_block_rectangle{
+        display: none;
+    }
+    .carousel_block_img{
+        display: none;
+    }
+    .feedback{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .feedback_grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);   
+        row-gap: 10px;  
+
+    }
+    .feed-grid-elem-1{
+        grid-column-start: 1;
+    }
+    .feed-grid-elem-3{
+        grid-column-start: 1;
+    }
+    .team {
+        padding-left: 70px;
+        padding-right: 70px;
+        min-height: 800px;
+    }
+    .team-member_name {
+        font-size: 13px;
+    }
+    .team-member_position {
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+    .images_sector, .partners{
+        display: none;
+    }
+    h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .container{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .promo{
+        min-height: 500px;
+    }
+    .promo_btn{
+        width: 120px;
+        height: 30px;
+        font-size: 9px;
+    }
+    .section_subtitle{
+        font-size: 18px;
+    }
+    .section_title{
+        font-size: 21px;
+    }
+    .section_descr {
+        font-size: 10px;
+    }
+    .achievements{
+        min-height: 170px;
+    }
+    .achievements_grid-container{
+        grid-template-columns: repeat(7, 1fr);
+        column-gap: 5px
+    }
+    .achievements_number{
+        font-size: 25px;
+    }
+    .achievements_descr {
+        font-size: 9px; 
+    }
+    .amazing-service_grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 12px;
+        column-gap: 0;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    .amazing-service_subtitle{
+        font-size: 13px;
+    }
+    .amazing-service_descr, .feedback_descr{
+        font-size: 12px;
+    }
+    .grid-elem-1 {
+        grid-column-start: 1;
+    }
+    .grid-elem-3{
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+    .grid-elem-4{
+        grid-row-start: 4;
+        grid-column-start: 1;
+    }
+    .grid-elem-5{
+        grid-row-start: 5;
+        grid-column-start: 1;
+    }
+    .grid-elem-6{
+        grid-row-start: 6;
+        grid-column-start: 1;
+    }
+    .service_block_items {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    .service_block {
+        flex-direction: column;
+    }
+    .rectangle {
+        width: 100%;
+    }
+    .carousel_block{
+        width: 40%;
+        
+    }
+    .carousel_text{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .customer_name{
+        font-size: 15px;
+    }
+    .story-about-us{
+        min-height: 500px;
+    }
+    .story-about-us_images-block{
+        margin-top: 55px;
+    }
+    .story-about-us_image{
+        width: 50%;
+    }
+    .carousel{
+        padding-left: 50px;
+        padding-right: 50px;
+        min-height: 200px;
+    }
+    .carousel_block{
+        margin: 0;
+        width: 40%;
+    }
+    .carousel_text{
+        width: 200px;
+    }
+    .carousel_block_rectangle{
+        display: none;
+    }
+    .carousel_block_img{
+        display: none;
+    }
+    .team_descr{
+        flex-direction: column;
+    }
+    .team-member{
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+    .feedback{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .feedback_block{
+        flex-direction: column;
+    }
+   
+    .feedback_grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);   
+        row-gap: 10px;  
+
+    }
+    .feed-grid-elem-1{
+        grid-column-start: 1;
+    }
+    .feed-grid-elem-3{
+        grid-column-start: 1;
+    }
+    .feedback_block-image{
+        display: block;
+        margin: 0 auto;
+    }
+    .feedback_text{
+        margin: 0;
+        text-align: center;
+    }
+    .feedback_subtitle{
+        text-align: center;
+    }
+    .feedback_line {
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .feedback_descr{
+        text-align: center;
+    }
+    .team {
+        padding-left: 70px;
+        padding-right: 70px;
+        min-height: 800px;
+    }
+    .team-member_name {
+        font-size: 13px;
+    }
+    .team-member_position {
+        font-size: 13px;
+    }
+} 
+
