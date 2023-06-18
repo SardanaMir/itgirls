@@ -1,0 +1,13 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    list-style-type: none;
+    &__item{
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 160%;
+        color: $button-color;
+    }
+}

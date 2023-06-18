@@ -1,0 +1,21 @@
+.promo{
+    min-height: 900px;
+    padding-left: 126px;
+    padding-bottom: 80px;
+    display: flex;
+
+    &__wrapper{
+        width: 542px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120%;
+        color: #000000;
+        margin-top: 76px;
+    }
+    &__bg{
+        width: 100vw;
+        margin-left: 44px;
+    }
+}
