@@ -1,0 +1,45 @@
+img {
+    width: 30%;
+}
+/* .container-fluid {
+    display: flex;
+    justify-content: space-between;
+} */
+.card {
+    display: block;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+}
+.the-main-card{
+    width: 79rem;
+    min-height: 25rem;
+    background-color: grey;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+
+.footer_text{
+    text-align: center;
+    color: white;
+}
+
+.the-card-title{
+    font-size: 70px;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+/* .btn {
+    display: block;
+    margin: auto 0 ;
+} */
